@@ -1,0 +1,11 @@
+type Meta {
+    id: String
+}
+
+type Device {
+    meta: Meta
+}
+
+type Query {
+    hello: Device!
+}
